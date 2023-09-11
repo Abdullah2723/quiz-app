@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+    <style>
+    </style>
+</head>
+
+<body id="body">
+    <div class="mainLoad">
+        <div class="loader"></div>
+    </div>
+    <main>
+        <h1 class="mainheading">Quiz App</h1>
+        <button class="startBtn">Start Quiz</button>
+        <button class="next-question" onclick="nextQ()">Next</button>
+        <div id="start">
+            <h4 id="q">${next + 1}. ${arr[next].question}</h4>
+            <div id="opt"></div>
+        </div>
+    </main>
+    <footer>
+        <h4>unknown developer ☠️</h4>
+    </footer>
+</body>
+
+<script src="script.js">
+</script>
+
+</html>
